@@ -6,6 +6,7 @@
 	<ContentPage.Content>
 		<StackLayout Padding="20" Spacing="20">
 
+			<Image Source="dinosaur.png" Aspect="AspectFit" />
 			<Entry x:Name="usernameEntry" Placeholder="Usuário" />
 			<Entry x:Name="passwordEntry" Placeholder="Senha (8 dígitos)"
 				IsPassword="true" />
