@@ -4,7 +4,7 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 	x:Class="gcamobile.LoginPage">
 	<ContentPage.Content>
-		<StackLayout Padding="20" Spacing="20">
+		<StackLayout Padding="25,20,25,15" Spacing="8">
 
 			<Image Source="dinosaur.png" Aspect="AspectFit" />
 			<Entry x:Name="usernameEntry" Placeholder="Usuário" />
@@ -14,7 +14,22 @@
 				BackgroundColor="#2288AC"
 				TextColor="#9BD6EF"
 				Text="Entrar"
-				Clicked="OnLoginButtonClicked" />
+				FontFamily="sans-serif"
+				Clicked="OnLoginButtonClicked"
+				/>
+			<Label
+				VerticalOptions="EndAndExpand"
+				XAlign="Center"
+				FontFamily="sans-serif"
+				FontSize="12"
+				Text="Esqueceu seus dados de login ou não tem conta?" />
+			<Button
+				BackgroundColor="Transparent"
+				TextColor="#78C9FB"
+				Text="Obter ajuda para entrar"
+				FontFamily="sans-serif"
+				FontSize="12"
+				/>
 
 		</StackLayout>
 	</ContentPage.Content>
