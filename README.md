@@ -1,4 +1,8 @@
-# GCA - Gerenciador de Centro Academico
+# xamarin-playground
+
+Some testes made to learn Xamarin Form
+
+Everything from Jan 2016
 
 
 ## Dependencies:
@@ -7,12 +11,12 @@
 * Android SDK
 * Xcode (Mac)
 
+
 ## Quick Start
 
 * Clone the repository
 ```sh
-# Don't forget to change "<yourUserName>"
-$ git clone https://<yourUserName>@bitbucket.org/adpt/gca-mobile.git
+$ git clone https://github.com/Moggi/xamarin-playground.git
 ```
 
 * Open in Xamarin Studio
