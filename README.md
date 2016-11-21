@@ -1,14 +1,14 @@
 # Xamarin-playground
 
-Some testes made to learn Xamarin Form
+Some tests made to learn Xamarin Form
 
 Everything from Jan 2016
 
 
 ## Dependencies:
 
-* Xamarin Studio 5.10
-* Android SDK
+* [Xamarin Studio 5.10](https://www.xamarin.com)
+* Android SDK (comes with Xamarin)
 * Xcode (Mac)
 
 
